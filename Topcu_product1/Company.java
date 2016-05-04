@@ -1,14 +1,14 @@
 package at.olm.bak.git;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Company {
 
-	private ArrayList<product> products;
+	private LinkedList<product> products;
 	private String name = "IBM";
 	public Company()
 	{
-		products = new ArrayList() ArrayList<product>;
+		products = new LinkedList() LinkedList<product>;
 		
 	}
 }
