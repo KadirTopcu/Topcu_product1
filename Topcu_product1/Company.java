@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Company {
 
-	private ArrayList<product> products;
+	private treeset() products;
 	
 	public Company()
 	{
