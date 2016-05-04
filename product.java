@@ -2,12 +2,19 @@ package at.olm.bak.git;
 
 public class Product {
 	private String name;
+<<<<<<< HEAD
+	
+	public product(String name) {
+		setName(name);
+		
+=======
 	private float price;
 	private int id;
 	
 	public product(String name, float price) {
 		setName(name);
 		setPrice(price);
+>>>>>>> origin/master
 	}
 	
 	public String getName() {
