@@ -3,6 +3,7 @@ package at.olm.bak.git;
 public class Product {
 	private String name;
 	private float price;
+	private int id;
 	
 	public product(String name, float price) {
 		setName(name);
@@ -17,12 +18,20 @@ public class Product {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getPrice() {
+	public float getPrice() {
 		return price;
 	}
 	
 	
-	public void setPrice(String price) {
+	public void setPrice(float price) {
 		this.price = price;
+	}
+	public int getId() {
+		return id;
+	}
+	
+	
+	public void setId(int id) {
+		this.id = id;
 	}
 }
