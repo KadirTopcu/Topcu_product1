@@ -2,10 +2,18 @@ package at.olm.bak.git;
 
 public class Product {
 	private String name;
-	private boolean onStock = true;
+<<<<<<< HEAD
+	
 	public product(String name) {
 		setName(name);
 		
+=======
+	private float price;
+	
+	public product(String name, float price) {
+		setName(name);
+		setPrice(price);
+>>>>>>> origin/master
 	}
 	
 	public String getName() {
@@ -15,5 +23,13 @@ public class Product {
 	
 	public void setName(String name) {
 		this.name = name;
+	}
+	public String getPrice() {
+		return price;
+	}
+	
+	
+	public void setPrice(String price) {
+		this.price = price;
 	}
 }
